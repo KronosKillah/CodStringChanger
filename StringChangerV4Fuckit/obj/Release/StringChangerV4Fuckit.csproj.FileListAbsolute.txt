@@ -1,0 +1,4 @@
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Release\StringChangerV4Fuckit.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Release\StringChangerV4Fuckit.Form1.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Release\StringChangerV4Fuckit.Properties.Resources.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Release\StringChangerV4Fuckit.csproj.GenerateResource.Cache

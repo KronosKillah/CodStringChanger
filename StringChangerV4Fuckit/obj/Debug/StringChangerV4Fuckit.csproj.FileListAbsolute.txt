@@ -1,0 +1,46 @@
+c:\users\admin\documents\visual studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.Form1.resources
+c:\users\admin\documents\visual studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\PS3Lib.dll
+C:\Users\Admin\documents\visual studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.exe.config
+C:\Users\Admin\documents\visual studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.exe
+C:\Users\Admin\documents\visual studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.pdb
+C:\Users\Admin\documents\visual studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.Properties.Resources.resources
+C:\Users\Admin\documents\visual studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.exe
+C:\Users\Admin\documents\visual studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\Newtonsoft.Json.xml
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.exe.config
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.exe
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.pdb
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.exe
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.pdb
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\Newtonsoft.Json.dll
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\Newtonsoft.Json.xml
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.csprojResolveAssemblyReference.cache
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.Form1.resources
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.Properties.Resources.resources
+C:\Users\The Baboon\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.csproj.GenerateResource.Cache
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.exe.config
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.exe
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.pdb
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.csprojResolveAssemblyReference.cache
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.Form1.resources
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.Properties.Resources.resources
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.csproj.GenerateResource.Cache
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.exe
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.pdb
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Main-PC\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.exe.config
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.exe
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\StringChangerV4Fuckit.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.Form1.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.Properties.Resources.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.csproj.GenerateResource.Cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.exe
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\obj\Debug\StringChangerV4Fuckit.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\StringChangerV4Fuckit\StringChangerV4Fuckit\bin\Debug\PS3Lib.dll
