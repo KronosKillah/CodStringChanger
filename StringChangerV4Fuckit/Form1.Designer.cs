@@ -191,6 +191,7 @@
             this.playlistsBtn = new System.Windows.Forms.Button();
             this.tabControl7 = new System.Windows.Forms.TabControl();
             this.tabPage17 = new System.Windows.Forms.TabPage();
+            this.label191 = new System.Windows.Forms.Label();
             this.tabPage23 = new System.Windows.Forms.TabPage();
             this.tabPage24 = new System.Windows.Forms.TabPage();
             this.tabPage25 = new System.Windows.Forms.TabPage();
@@ -1016,11 +1017,16 @@
             this.tabPage29 = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage30 = new System.Windows.Forms.TabPage();
+            this.label182 = new System.Windows.Forms.Label();
             this.tabPage31 = new System.Windows.Forms.TabPage();
             this.tabPage32 = new System.Windows.Forms.TabPage();
+            this.label184 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.label185 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label186 = new System.Windows.Forms.Label();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.label188 = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.ConnectedStripLabel = new System.Windows.Forms.ToolStripLabel();
             this.AttachStripLabel = new System.Windows.Forms.ToolStripLabel();
@@ -1036,12 +1042,9 @@
             this.singleBeepToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.doubleBeepToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.contineousToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label182 = new System.Windows.Forms.Label();
-            this.label184 = new System.Windows.Forms.Label();
-            this.label185 = new System.Windows.Forms.Label();
-            this.label186 = new System.Windows.Forms.Label();
-            this.label188 = new System.Windows.Forms.Label();
-            this.label191 = new System.Windows.Forms.Label();
+            this.mW3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -1175,7 +1178,8 @@
             // loadSaveSettingToolStripMenuItem
             // 
             this.loadSaveSettingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bO2ToolStripMenuItem});
+            this.bO2ToolStripMenuItem,
+            this.mW3ToolStripMenuItem});
             this.loadSaveSettingToolStripMenuItem.Name = "loadSaveSettingToolStripMenuItem";
             this.loadSaveSettingToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
             this.loadSaveSettingToolStripMenuItem.Text = "Load / Save Setting";
@@ -1186,20 +1190,20 @@
             this.BO2LoadSettings,
             this.BO2SaveSettings});
             this.bO2ToolStripMenuItem.Name = "bO2ToolStripMenuItem";
-            this.bO2ToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.bO2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bO2ToolStripMenuItem.Text = "BO2";
             // 
             // BO2LoadSettings
             // 
             this.BO2LoadSettings.Name = "BO2LoadSettings";
-            this.BO2LoadSettings.Size = new System.Drawing.Size(100, 22);
+            this.BO2LoadSettings.Size = new System.Drawing.Size(152, 22);
             this.BO2LoadSettings.Text = "Load";
             this.BO2LoadSettings.Click += new System.EventHandler(this.BO2LoadSettings_Click);
             // 
             // BO2SaveSettings
             // 
             this.BO2SaveSettings.Name = "BO2SaveSettings";
-            this.BO2SaveSettings.Size = new System.Drawing.Size(100, 22);
+            this.BO2SaveSettings.Size = new System.Drawing.Size(152, 22);
             this.BO2SaveSettings.Text = "Save";
             this.BO2SaveSettings.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -2837,6 +2841,16 @@
             this.tabPage17.Size = new System.Drawing.Size(1114, 395);
             this.tabPage17.TabIndex = 0;
             this.tabPage17.Text = "Core";
+            // 
+            // label191
+            // 
+            this.label191.AutoSize = true;
+            this.label191.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label191.Location = new System.Drawing.Point(252, 170);
+            this.label191.Name = "label191";
+            this.label191.Size = new System.Drawing.Size(610, 55);
+            this.label191.TabIndex = 1;
+            this.label191.Text = "NOT IMPLEMENTED YET";
             // 
             // tabPage23
             // 
@@ -11566,6 +11580,16 @@
             this.tabPage30.TabIndex = 0;
             this.tabPage30.Text = "Standard Playlists";
             // 
+            // label182
+            // 
+            this.label182.AutoSize = true;
+            this.label182.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label182.Location = new System.Drawing.Point(234, 111);
+            this.label182.Name = "label182";
+            this.label182.Size = new System.Drawing.Size(610, 55);
+            this.label182.TabIndex = 0;
+            this.label182.Text = "NOT IMPLEMENTED YET";
+            // 
             // tabPage31
             // 
             this.tabPage31.BackColor = System.Drawing.SystemColors.Control;
@@ -11587,6 +11611,16 @@
             this.tabPage32.TabIndex = 6;
             this.tabPage32.Text = "Maps";
             // 
+            // label184
+            // 
+            this.label184.AutoSize = true;
+            this.label184.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label184.Location = new System.Drawing.Point(257, 230);
+            this.label184.Name = "label184";
+            this.label184.Size = new System.Drawing.Size(610, 55);
+            this.label184.TabIndex = 1;
+            this.label184.Text = "NOT IMPLEMENTED YET";
+            // 
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
@@ -11597,6 +11631,16 @@
             this.tabPage5.Size = new System.Drawing.Size(1131, 536);
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "Black Ops 1";
+            // 
+            // label185
+            // 
+            this.label185.AutoSize = true;
+            this.label185.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label185.Location = new System.Drawing.Point(260, 241);
+            this.label185.Name = "label185";
+            this.label185.Size = new System.Drawing.Size(610, 55);
+            this.label185.TabIndex = 1;
+            this.label185.Text = "NOT IMPLEMENTED YET";
             // 
             // tabPage6
             // 
@@ -11609,6 +11653,16 @@
             this.tabPage6.TabIndex = 3;
             this.tabPage6.Text = "Advanced Warfare";
             // 
+            // label186
+            // 
+            this.label186.AutoSize = true;
+            this.label186.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label186.Location = new System.Drawing.Point(260, 241);
+            this.label186.Name = "label186";
+            this.label186.Size = new System.Drawing.Size(610, 55);
+            this.label186.TabIndex = 1;
+            this.label186.Text = "NOT IMPLEMENTED YET";
+            // 
             // tabPage7
             // 
             this.tabPage7.BackColor = System.Drawing.SystemColors.Control;
@@ -11619,6 +11673,16 @@
             this.tabPage7.Size = new System.Drawing.Size(1131, 536);
             this.tabPage7.TabIndex = 4;
             this.tabPage7.Text = "Ghosts";
+            // 
+            // label188
+            // 
+            this.label188.AutoSize = true;
+            this.label188.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label188.Location = new System.Drawing.Point(260, 241);
+            this.label188.Name = "label188";
+            this.label188.Size = new System.Drawing.Size(610, 55);
+            this.label188.TabIndex = 1;
+            this.label188.Text = "NOT IMPLEMENTED YET";
             // 
             // toolStrip1
             // 
@@ -11725,65 +11789,28 @@
             this.contineousToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.contineousToolStripMenuItem.Text = "Contineous ";
             // 
-            // label182
+            // mW3ToolStripMenuItem
             // 
-            this.label182.AutoSize = true;
-            this.label182.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label182.Location = new System.Drawing.Point(234, 111);
-            this.label182.Name = "label182";
-            this.label182.Size = new System.Drawing.Size(610, 55);
-            this.label182.TabIndex = 0;
-            this.label182.Text = "NOT IMPLEMENTED YET";
+            this.mW3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loadToolStripMenuItem,
+            this.saveToolStripMenuItem});
+            this.mW3ToolStripMenuItem.Name = "mW3ToolStripMenuItem";
+            this.mW3ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.mW3ToolStripMenuItem.Text = "MW3";
             // 
-            // label184
+            // loadToolStripMenuItem
             // 
-            this.label184.AutoSize = true;
-            this.label184.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label184.Location = new System.Drawing.Point(257, 230);
-            this.label184.Name = "label184";
-            this.label184.Size = new System.Drawing.Size(610, 55);
-            this.label184.TabIndex = 1;
-            this.label184.Text = "NOT IMPLEMENTED YET";
+            this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.loadToolStripMenuItem.Text = "Load";
+            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
             // 
-            // label185
+            // saveToolStripMenuItem
             // 
-            this.label185.AutoSize = true;
-            this.label185.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label185.Location = new System.Drawing.Point(260, 241);
-            this.label185.Name = "label185";
-            this.label185.Size = new System.Drawing.Size(610, 55);
-            this.label185.TabIndex = 1;
-            this.label185.Text = "NOT IMPLEMENTED YET";
-            // 
-            // label186
-            // 
-            this.label186.AutoSize = true;
-            this.label186.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label186.Location = new System.Drawing.Point(260, 241);
-            this.label186.Name = "label186";
-            this.label186.Size = new System.Drawing.Size(610, 55);
-            this.label186.TabIndex = 1;
-            this.label186.Text = "NOT IMPLEMENTED YET";
-            // 
-            // label188
-            // 
-            this.label188.AutoSize = true;
-            this.label188.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label188.Location = new System.Drawing.Point(260, 241);
-            this.label188.Name = "label188";
-            this.label188.Size = new System.Drawing.Size(610, 55);
-            this.label188.TabIndex = 1;
-            this.label188.Text = "NOT IMPLEMENTED YET";
-            // 
-            // label191
-            // 
-            this.label191.AutoSize = true;
-            this.label191.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label191.Location = new System.Drawing.Point(252, 170);
-            this.label191.Name = "label191";
-            this.label191.Size = new System.Drawing.Size(610, 55);
-            this.label191.TabIndex = 1;
-            this.label191.Text = "NOT IMPLEMENTED YET";
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click_1);
             // 
             // Form1
             // 
@@ -12943,6 +12970,9 @@
         private System.Windows.Forms.Label label185;
         private System.Windows.Forms.Label label186;
         private System.Windows.Forms.Label label188;
+        private System.Windows.Forms.ToolStripMenuItem mW3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
     }
 }
 

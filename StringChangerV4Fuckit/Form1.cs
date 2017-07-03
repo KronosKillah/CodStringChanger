@@ -92,6 +92,115 @@ namespace StringChangerV4Fuckit
             string output = JsonConvert.SerializeObject(Bo2Setting);
             using (StreamWriter sw = new StreamWriter("Data/BO2ToolSettings.json", true)) { sw.WriteLine(output); }
         }
+        public void MW3SaveSettingsTool(string input, string textboxname)
+        {
+            Setting MW3Setting = new Setting(input, textboxname);
+            string output = JsonConvert.SerializeObject(MW3Setting);
+            using (StreamWriter sw = new StreamWriter("Data/MW3ToolSettings.json", true)) { sw.WriteLine(output); }
+        }
+        public void MW3LoadSettingsTool()
+        {
+            string settings_filepath = "Data/MW3ToolSettings.json";
+            if (File.Exists(settings_filepath))
+            {
+                string[] Settings_MW3_content = File.ReadAllLines(settings_filepath);
+                foreach (string line in Settings_MW3_content)
+                {
+
+                    Setting setting = JsonConvert.DeserializeObject<Setting>(line);
+                    settingsList.Add(setting);
+                    if(setting.name == "MW3PlayOnlineDescBox"){ MW3PlayOnlineDescBox.Text = setting.value; }
+                    if (setting.name == "MW3PlayOnlineBox") { MW3PlayOnlineBox.Text = setting.value; }
+                    if (setting.name == "MW3MultiplayerBox") { MW3MultiplayerBox.Text = setting.value; }
+                    if (setting.name == "MW3MainMenuDescBox") { MW3MainMenuDescBox.Text = setting.value; }
+                    if (setting.name == "MW3MainMenuBox") { MW3MainMenuBox.Text = setting.value; }
+                    if (setting.name == "MW3OptionsDescBox") { MW3OptionsDescBox.Text = setting.value; }
+                    if (setting.name == "MW3OptionsBox") { MW3OptionsBox.Text = setting.value; }
+                    if (setting.name == "MW3StoreDescBox") { MW3StoreDescBox.Text = setting.value; }
+                    if (setting.name == "MW3StoreBox") { MW3StoreBox.Text = setting.value; }
+                    if (setting.name == "MW3VaultDescBox") { MW3VaultDescBox.Text = setting.value; }
+                    if (setting.name == "MW3VaultBox") { MW3VaultBox.Text = setting.value; }
+                    if (setting.name == "MW3EliteDescBox") { MW3EliteDescBox.Text = setting.value; }
+                    if (setting.name == "MW3EliteBox") { MW3EliteBox.Text = setting.value; }
+                    if (setting.name == "MW3LanPlayDescBox") { MW3LanPlayDescBox.Text = setting.value; }
+                    if (setting.name == "MW3LanPlayBox") { MW3LanPlayBox.Text = setting.value; }
+                    if (setting.name == "MW3SplitScreenBox") { MW3SplitScreenBox.Text = setting.value; }
+                    if (setting.name == "MW3SplitScreenDescBox") { MW3SplitScreenDescBox.Text = setting.value; }
+                    if (setting.name == "MW3AddControllerSplitScreenBox") { MW3AddControllerSplitScreenBox.Text = setting.value; }
+                    if (setting.name == "MW3BarracksDescBox") { MW3BarracksDescBox.Text = setting.value; }
+                    if (setting.name == "MW3BarracksBox") { MW3BarracksBox.Text = setting.value; }
+                    if (setting.name == "MW3CallsignDescBox") { MW3CallsignDescBox.Text = setting.value; }
+                    if (setting.name == "MW3CallsignBox") { MW3CallsignBox.Text = setting.value; }
+                    if (setting.name == "MW3CreateAClassDescBox") { MW3CreateAClassDescBox.Text = setting.value; }
+                    if (setting.name == "MW3CreateAClassBox") { MW3CreateAClassBox.Text = setting.value; }
+                    if (setting.name == "MW3PrivateMatchDescBox") { MW3PrivateMatchDescBox.Text = setting.value; }
+                    if (setting.name == "MW3PrivateMatchBox") { MW3PrivateMatchBox.Text = setting.value; }
+                    if (setting.name == "MW3FindGameDescBox") { MW3FindGameDescBox.Text = setting.value; }
+                    if (setting.name == "MW3FindGameBox") { MW3FindGameBox.Text = setting.value; }
+                    if (setting.name == "MW3ASSAULTRIFLESBox") { MW3ASSAULTRIFLESBox.Text = setting.value; }
+                    if (setting.name == "MW3FADBox") { MW3FADBox.Text = setting.value; }
+                    if (setting.name == "MW3AK47Box") { MW3AK47Box.Text = setting.value; }
+                    if (setting.name == "MW3MK14Box") { MW3MK14Box.Text = setting.value; }
+                    if (setting.name == "MW3ACRBox") { MW3ACRBox.Text = setting.value; }
+                    if (setting.name == "MW3G36CBox") { MW3G36CBox.Text = setting.value; }
+                    if (setting.name == "MW3TYPE95Box") { MW3TYPE95Box.Text = setting.value; }
+                    if (setting.name == "MW3CM901Box") { MW3CM901Box.Text = setting.value; }
+                    if (setting.name == "MW3SCARLBox") { MW3SCARLBox.Text = setting.value; }
+                    if (setting.name == "MW3M16A4Box") { MW3M16A4Box.Text = setting.value; }
+                    if (setting.name == "MW3M4A1Box") { MW3M4A1Box.Text = setting.value; }
+                    if (setting.name == "MW3ShotGunsBox") { MW3ShotGunsBox.Text = setting.value; }
+                    if (setting.name == "MW3MODEL1887Box") { MW3MODEL1887Box.Text = setting.value; }
+                    if (setting.name == "MW3STRIKERBox") { MW3STRIKERBox.Text = setting.value; }
+                    if (setting.name == "MW3AA12Box") { MW3AA12Box.Text = setting.value; }
+                    if (setting.name == "MW3SPAS12Box") { MW3SPAS12Box.Text = setting.value; }
+                    if (setting.name == "MW3KSG12Box") { MW3KSG12Box.Text = setting.value; }
+                    if (setting.name == "MW3USAS12Box") { MW3USAS12Box.Text = setting.value; }
+                    if (setting.name == "MW3LMGsStringBox") { MW3LMGsStringBox.Text = setting.value; }
+                    if (setting.name == "MW3M60E4Box") { MW3M60E4Box.Text = setting.value; }
+                    if (setting.name == "MW3MK46Box") { MW3MK46Box.Text = setting.value; }
+                    if (setting.name == "MW3PKPPECHENEGBox") { MW3PKPPECHENEGBox.Text = setting.value; }
+                    if (setting.name == "MW3MG36Box") { MW3MG36Box.Text = setting.value; }
+                    if (setting.name == "MW3L86LSWBox") { MW3L86LSWBox.Text = setting.value; }
+                    if (setting.name == "MW3SniperRilesBox") { MW3SniperRilesBox.Text = setting.value; }
+                    if (setting.name == "MW3MSRBox") { MW3MSRBox.Text = setting.value; }
+                    if (setting.name == "MW3RsassBox") { MW3RsassBox.Text = setting.value; }
+                    if (setting.name == "MW3AS50Box") { MW3AS50Box.Text = setting.value; }
+                    if (setting.name == "MW3DragunovBox") { MW3DragunovBox.Text = setting.value; }
+                    if (setting.name == "MW3L118ABox") { MW3L118ABox.Text = setting.value; }
+                    if (setting.name == "MW3Barret50callBox") { MW3Barret50callBox.Text = setting.value; }
+                    if (setting.name == "MW3RiotShieldBox") { MW3RiotShieldBox.Text = setting.value; }
+                    if (setting.name == "MW3SMGsStringBox") { MW3SMGsStringBox.Text = setting.value; }
+                    if (setting.name == "MW3MP7Box") { MW3MP7Box.Text = setting.value; }
+                    if (setting.name == "MW3PM9Box") { MW3PM9Box.Text = setting.value; }
+                    if (setting.name == "MW3P90Box") { MW3P90Box.Text = setting.value; }
+                    if (setting.name == "MW3PP90M1Box") { MW3PP90M1Box.Text = setting.value; }
+                    if (setting.name == "MW3UMP45Box") { MW3UMP45Box.Text = setting.value; }
+                    if (setting.name == "MW3MP5Box") { MW3MP5Box.Text = setting.value; }
+                    if (setting.name == "MW3MachinePistolsBox") { MW3MachinePistolsBox.Text = setting.value; }
+                    if (setting.name == "MW3G18Box") { MW3G18Box.Text = setting.value; }
+                    if (setting.name == "MW3SkorpionBox") { MW3SkorpionBox.Text = setting.value; }
+                    if (setting.name == "MW3MP9Box") { MW3MP9Box.Text = setting.value; }
+                    if (setting.name == "MW3FMG9Box") { MW3FMG9Box.Text = setting.value; }
+                    if (setting.name == "MW3DesertEagleBox") { MW3DesertEagleBox.Text = setting.value; }
+                    if (setting.name == "MW3HandGunsBox") { MW3HandGunsBox.Text = setting.value; }
+                    if (setting.name == "MW3FiveSevenBox") { MW3FiveSevenBox.Text = setting.value; }
+                    if (setting.name == "MW344MagnumBox") { MW344MagnumBox.Text = setting.value; }
+                    if (setting.name == "MW3MP412Box") { MW3MP412Box.Text = setting.value; }
+                    if (setting.name == "MW3P99Box") { MW3P99Box.Text = setting.value; }
+                    if (setting.name == "MW3USP45Box") { MW3USP45Box.Text = setting.value; }
+                    if (setting.name == "MW3LaunchersBox") { MW3LaunchersBox.Text = setting.value; }
+                    if (setting.name == "MW3RPG7Box") { MW3RPG7Box.Text = setting.value; }
+                    if (setting.name == "MW3M320GLMBox") { MW3M320GLMBox.Text = setting.value; }
+                    if (setting.name == "MW3XM25Box") { MW3XM25Box.Text = setting.value; }
+                    if (setting.name == "MW3StingerBox") { MW3StingerBox.Text = setting.value; }
+                    if (setting.name == "MW3JavelinBox") { MW3JavelinBox.Text = setting.value; }
+                    if (setting.name == "MW3SMAWBox") { MW3SMAWBox.Text = setting.value; }
+
+                }
+            }
+            else MessageBox.Show(settings_filepath + " is missing! :(");
+
+        }
         public void Bo2LoadSettingsTool()
         {
             string[] inp = { "pubmatchBox", "multiplayerBox", "pubmatchDescBox", "storeDescBox", "storeBox", "optionsDescBox", "optionsBox", "barracksDescBox", "barracksBox", "codtvDescBox", "codtvBox", "theaterDescBox", "theaterBox", "customGameDescBox", "customGameBox", "leagueDescBox", "leaguePlayBox", "localBox", "lanPartyBox", "playOnlineBox", "playersOnlineBox", "addSplitscreenControllerBox", "backButtonBox", "friendsPlayingBox", "scorestreaksDescBox", "scorestreaksBox", "createclassDescBox", "createaclassBox", "findmatchDescBox", "findMatchBox", "livestreamDescBox", "livestreamBox", "deadScilenceDescBox", "deadscilenceBox", "tacMaskDescBox", "tacMaskBox", "engineerDescBox", "engineerBox", "exCondDesBox", "exCondBox", "dexterityDescBox", "dexterityBox", "scavengerDescBox", "scavengerBox", "hardwiredDescBox", "hardwiredBox", "fasthandsDescBox", "fasthandsBox", "coldbloodedDescBox", "coldbloodBox", "toughnessDescBox", "toughnessBox", "ghostDescBox", "ghostBox", "flakjacketDescBox", "flakjacketBox", "blindeyeDescBox", "blindeyeBox", "hardlineDescBox", "hardlineBox", "lightweightDescBox", "lightweightBox", "awarenessDescBox", "awarenessBox", "c4DescBox", "c4Box", "bouncingbettyDescBox", "bouncingbettyBox", "combataxeDescBox", "combataxeBox", "semtexDescBox", "semtexBox", "claymoreDescBox", "grenadeDescBox", "claymoreBox", "grenadeBox", "tacinsertDescBox", "tacinsertBox", "trophysystemDescBox", "trophysystemBox", "flashbagDescBox", "flashbangBox", "blackhatDescBox", "blackhatBox", "shockchargeDescBox", "shockchargeBox", "empgrenadeDescBox", "empgrenadeBox", "sensorgrenadeDescBox", "sensorgrenadeBox", "stungrenadeDescBox", "stungrenadeBox", "concussionDescBox", "concussionBox", "assaultriflesBox", "an94DescBox", "an94Box", "maDescBox", "m8a1Box", "smrDescBox", "smrBox", "scarDescBox", "scarhBox", "m27DescBox", "m27Box", "faloswDescBox", "faloswBox", "swat556DescBox", "swat556Box", "type25DescBox", "type25Box", "mtarDescBox", "mtarBox", "m1216DescBox", "m1216Box", "ksgDescBox", "ksgBox", "s12DescBox", "s12Box", "r870mcsDescBox", "r870mcsBox", "HAMRDescBox", "HAMRBox", "LSATDescBox", "LSATBox", "QBBLSWDescBox", "QBBLSWBox", "MK48DescBox", "MK48Box", "XPR50DescBox", "XPR50Box", "BallistaDescBox", "BallistaBox", "DSR50DescBox", "DSR50Box", "SVUASDescBox", "SVUASBox", "assaultshieldDescBox", "assaultshieldBox" };
@@ -393,6 +502,96 @@ namespace StringChangerV4Fuckit
 
             MessageBox.Show("Save was successfull", "Save Successfull.", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
+        public void SaveMW3Settings()
+        {
+            MW3SaveSettingsTool("MW3PlayOnlineDescBox", MW3PlayOnlineDescBox.Text);
+            MW3SaveSettingsTool("MW3PlayOnlineBox", MW3PlayOnlineBox.Text);
+            MW3SaveSettingsTool("MW3MultiplayerBox", MW3MultiplayerBox.Text);
+            MW3SaveSettingsTool("MW3MainMenuDescBox", MW3MainMenuDescBox.Text);
+            MW3SaveSettingsTool("MW3MainMenuBox", MW3MainMenuBox.Text);
+            MW3SaveSettingsTool("MW3OptionsDescBox", MW3OptionsDescBox.Text);
+            MW3SaveSettingsTool("MW3OptionsBox", MW3OptionsBox.Text);
+            MW3SaveSettingsTool("MW3StoreDescBox", MW3StoreDescBox.Text);
+            MW3SaveSettingsTool("MW3StoreBox", MW3StoreBox.Text);
+            MW3SaveSettingsTool("MW3VaultDescBox", MW3VaultDescBox.Text);
+            MW3SaveSettingsTool("MW3VaultBox", MW3VaultBox.Text);
+            MW3SaveSettingsTool("MW3EliteDescBox", MW3EliteDescBox.Text);
+            MW3SaveSettingsTool("MW3EliteBox", MW3EliteBox.Text);
+            MW3SaveSettingsTool("MW3LanPlayDescBox", MW3LanPlayDescBox.Text);
+            MW3SaveSettingsTool("MW3LanPlayBox", MW3LanPlayBox.Text);
+            MW3SaveSettingsTool("MW3SplitScreenBox", MW3SplitScreenBox.Text);
+            MW3SaveSettingsTool("MW3SplitScreenDescBox", MW3SplitScreenDescBox.Text);
+            MW3SaveSettingsTool("MW3AddControllerSplitScreenBox", MW3AddControllerSplitScreenBox.Text);
+            MW3SaveSettingsTool("MW3BarracksDescBox", MW3BarracksDescBox.Text);
+            MW3SaveSettingsTool("MW3BarracksBox", MW3BarracksBox.Text);
+            MW3SaveSettingsTool("MW3CallsignDescBox", MW3CallsignDescBox.Text);
+            MW3SaveSettingsTool("MW3CallsignBox", MW3CallsignBox.Text);
+            MW3SaveSettingsTool("MW3CreateAClassDescBox", MW3CreateAClassDescBox.Text);
+            MW3SaveSettingsTool("MW3CreateAClassBox", MW3CreateAClassBox.Text);
+            MW3SaveSettingsTool("MW3PrivateMatchDescBox", MW3PrivateMatchDescBox.Text);
+            MW3SaveSettingsTool("MW3PrivateMatchBox", MW3PrivateMatchBox.Text);
+            MW3SaveSettingsTool("MW3FindGameDescBox", MW3FindGameDescBox.Text);
+            MW3SaveSettingsTool("MW3FindGameBox", MW3FindGameBox.Text);
+            MW3SaveSettingsTool("MW3ASSAULTRIFLESBox", MW3ASSAULTRIFLESBox.Text);
+            MW3SaveSettingsTool("MW3FADBox", MW3FADBox.Text);
+            MW3SaveSettingsTool("MW3AK47Box", MW3AK47Box.Text);
+            MW3SaveSettingsTool("MW3MK14Box", MW3MK14Box.Text);
+            MW3SaveSettingsTool("MW3ACRBox", MW3ACRBox.Text);
+            MW3SaveSettingsTool("MW3G36CBox", MW3G36CBox.Text);
+            MW3SaveSettingsTool("MW3TYPE95Box", MW3TYPE95Box.Text);
+            MW3SaveSettingsTool("MW3CM901Box", MW3CM901Box.Text);
+            MW3SaveSettingsTool("MW3SCARLBox", MW3SCARLBox.Text);
+            MW3SaveSettingsTool("MW3M16A4Box", MW3M16A4Box.Text);
+            MW3SaveSettingsTool("MW3M4A1Box", MW3M4A1Box.Text);
+            MW3SaveSettingsTool("MW3ShotGunsBox", MW3ShotGunsBox.Text);
+            MW3SaveSettingsTool("MW3MODEL1887Box", MW3MODEL1887Box.Text);
+            MW3SaveSettingsTool("MW3STRIKERBox", MW3STRIKERBox.Text);
+            MW3SaveSettingsTool("MW3AA12Box", MW3AA12Box.Text);
+            MW3SaveSettingsTool("MW3SPAS12Box", MW3SPAS12Box.Text);
+            MW3SaveSettingsTool("MW3KSG12Box", MW3KSG12Box.Text);
+            MW3SaveSettingsTool("MW3USAS12Box", MW3USAS12Box.Text);
+            MW3SaveSettingsTool("MW3LMGsStringBox", MW3LMGsStringBox.Text);
+            MW3SaveSettingsTool("MW3M60E4Box", MW3M60E4Box.Text);
+            MW3SaveSettingsTool("MW3MK46Box", MW3MK46Box.Text);
+            MW3SaveSettingsTool("MW3PKPPECHENEGBox", MW3PKPPECHENEGBox.Text);
+            MW3SaveSettingsTool("MW3MG36Box", MW3MG36Box.Text);
+            MW3SaveSettingsTool("MW3L86LSWBox", MW3L86LSWBox.Text);
+            MW3SaveSettingsTool("MW3SniperRilesBox", MW3SniperRilesBox.Text);
+            MW3SaveSettingsTool("MW3MSRBox", MW3MSRBox.Text);
+            MW3SaveSettingsTool("MW3RsassBox", MW3RsassBox.Text);
+            MW3SaveSettingsTool("MW3AS50Box", MW3AS50Box.Text);
+            MW3SaveSettingsTool("MW3DragunovBox", MW3DragunovBox.Text);
+            MW3SaveSettingsTool("MW3L118ABox", MW3L118ABox.Text);
+            MW3SaveSettingsTool("MW3Barret50callBox", MW3Barret50callBox.Text);
+            MW3SaveSettingsTool("MW3RiotShieldBox", MW3RiotShieldBox.Text);
+            MW3SaveSettingsTool("MW3SMGsStringBox", MW3SMGsStringBox.Text);
+            MW3SaveSettingsTool("MW3MP7Box", MW3MP7Box.Text);
+            MW3SaveSettingsTool("MW3PM9Box", MW3PM9Box.Text);
+            MW3SaveSettingsTool("MW3P90Box", MW3P90Box.Text);
+            MW3SaveSettingsTool("MW3PP90M1Box", MW3PP90M1Box.Text);
+            MW3SaveSettingsTool("MW3UMP45Box", MW3UMP45Box.Text);
+            MW3SaveSettingsTool("MW3MP5Box", MW3MP5Box.Text);
+            MW3SaveSettingsTool("MW3MachinePistolsBox", MW3MachinePistolsBox.Text);
+            MW3SaveSettingsTool("MW3G18Box", MW3G18Box.Text);
+            MW3SaveSettingsTool("MW3SkorpionBox", MW3SkorpionBox.Text);
+            MW3SaveSettingsTool("MW3MP9Box", MW3MP9Box.Text);
+            MW3SaveSettingsTool("MW3FMG9Box", MW3FMG9Box.Text);
+            MW3SaveSettingsTool("MW3DesertEagleBox", MW3DesertEagleBox.Text);
+            MW3SaveSettingsTool("MW3HandGunsBox", MW3HandGunsBox.Text);
+            MW3SaveSettingsTool("MW3FiveSevenBox", MW3FiveSevenBox.Text);
+            MW3SaveSettingsTool("MW344MagnumBox", MW344MagnumBox.Text);
+            MW3SaveSettingsTool("MW3MP412Box", MW3MP412Box.Text);
+            MW3SaveSettingsTool("MW3P99Box", MW3P99Box.Text);
+            MW3SaveSettingsTool("MW3USP45Box", MW3USP45Box.Text);
+            MW3SaveSettingsTool("MW3LaunchersBox", MW3LaunchersBox.Text);
+            MW3SaveSettingsTool("MW3RPG7Box", MW3RPG7Box.Text);
+            MW3SaveSettingsTool("MW3M320GLMBox", MW3M320GLMBox.Text);
+            MW3SaveSettingsTool("MW3XM25Box", MW3XM25Box.Text);
+            MW3SaveSettingsTool("MW3StingerBox", MW3StingerBox.Text);
+            MW3SaveSettingsTool("MW3JavelinBox", MW3JavelinBox.Text);
+            MW3SaveSettingsTool("MW3SMAWBox", MW3SMAWBox.Text);
+
+        }
         
         /// Load JSON File
         public  void LoadBo2Settings()
@@ -408,17 +607,35 @@ namespace StringChangerV4Fuckit
                 File.Delete("Data/Bo2ToolSettings.json");
 
             SaveBo2Settings();
+            MessageBox.Show("Custom Config File Saved :)", "Load Successfull", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
 
         private void BO2LoadSettings_Click(object sender, EventArgs e)
         {
             LoadBo2Settings();
         }
+
+        private void loadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MW3LoadSettingsTool();
+            MessageBox.Show("Custom Config File loaded :)", "Load Successfull", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+        }
+
+        private void saveToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            if (File.Exists("Data/MW3ToolSettings.json"))
+                File.Delete("Data/MW3ToolSettings.json");
+
+            SaveMW3Settings();
+        }
         #endregion
         public Form1()
         {
             InitializeComponent();
             NEWS();
+            tabControl2.Enabled = true;
+            tabControlMW3.Enabled = true;
+            tabControlBO2.Enabled = true;
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -2162,6 +2379,10 @@ namespace StringChangerV4Fuckit
             MW3.CreateAClass.SecondaryGuns.Launchers.LauncherString(MW3LaunchersBox.Text);
         }
 
+
+
+
+
         #endregion
 
         #endregion
@@ -2170,10 +2391,7 @@ namespace StringChangerV4Fuckit
 
         #endregion
 
-
-
-
-
+       
     }
 
 
