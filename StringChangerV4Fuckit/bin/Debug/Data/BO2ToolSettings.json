@@ -21,7 +21,7 @@
 {"name":"playersOnlineBox","value":"^1^BBUTTON_CANCEL^nline ^2Noobs to ^3Bill on"}
 {"name":"addSplitscreenControllerBox","value":"^2Kronos has no firends rip"}
 {"name":"backButtonBox","value":"^1Kronos<3"}
-{"name":"friendsPlayingBox","value":""}
+{"name":"friendsPlayingBox","value":"^1All ^2Of Kronos's^3 Fraanndz"}
 {"name":"scorestreaksDescBox","value":""}
 {"name":"scorestreaksBox","value":""}
 {"name":"createclassDescBox","value":""}
@@ -93,7 +93,7 @@
 {"name":"assaultriflesBox","value":""}
 {"name":"an94DescBox","value":""}
 {"name":"an94Box","value":""}
-{"name":"maDescBox","value":""}
+{"name":"m8a1DescBox","value":""}
 {"name":"m8a1Box","value":""}
 {"name":"smrDescBox","value":""}
 {"name":"smrBox","value":""}
@@ -127,11 +127,16 @@
 {"name":"MK48Box","value":""}
 {"name":"XPR50DescBox","value":""}
 {"name":"XPR50Box","value":""}
-{"name":"BallistaDescBox","value":""}
-{"name":"BallistaBox","value":""}
+{"name":"BallistaDescBox","value":"^1The gun that is somehow iconic"}
+{"name":"BallistaBox","value":"^112veGun"}
 {"name":"DSR50DescBox","value":""}
 {"name":"DSR50Box","value":""}
 {"name":"SVUASDescBox","value":""}
 {"name":"SVUASBox","value":""}
 {"name":"assaultshieldDescBox","value":""}
 {"name":"assaultshieldBox","value":""}
+{"name":"partygamesBox","value":""}
+{"name":"combattrainingBox","value":""}
+{"name":"hardcoreBox","value":""}
+{"name":"coreBox","value":""}
+{"name":"playlistsBox","value":""}

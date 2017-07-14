@@ -32,12 +32,14 @@
             this.connectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.connectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ccapiToolStrip = new System.Windows.Forms.ToolStripMenuItem();
-            this.tmapiToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.attachToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.loadSaveSettingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bO2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.BO2LoadSettings = new System.Windows.Forms.ToolStripMenuItem();
             this.BO2SaveSettings = new System.Windows.Forms.ToolStripMenuItem();
+            this.mW3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox21 = new System.Windows.Forms.GroupBox();
@@ -1042,9 +1044,6 @@
             this.singleBeepToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.doubleBeepToolStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.contineousToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mW3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -1148,30 +1147,22 @@
             // connectToolStripMenuItem
             // 
             this.connectToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ccapiToolStrip,
-            this.tmapiToolStrip});
+            this.ccapiToolStrip});
             this.connectToolStripMenuItem.Name = "connectToolStripMenuItem";
-            this.connectToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.connectToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.connectToolStripMenuItem.Text = "Connect";
             // 
             // ccapiToolStrip
             // 
             this.ccapiToolStrip.Name = "ccapiToolStrip";
-            this.ccapiToolStrip.Size = new System.Drawing.Size(110, 22);
+            this.ccapiToolStrip.Size = new System.Drawing.Size(152, 22);
             this.ccapiToolStrip.Text = "CCAPI";
             this.ccapiToolStrip.Click += new System.EventHandler(this.ccapiToolStrip_Click);
-            // 
-            // tmapiToolStrip
-            // 
-            this.tmapiToolStrip.Name = "tmapiToolStrip";
-            this.tmapiToolStrip.Size = new System.Drawing.Size(110, 22);
-            this.tmapiToolStrip.Text = "TMAPI";
-            this.tmapiToolStrip.Click += new System.EventHandler(this.tmapiToolStrip_Click);
             // 
             // attachToolStrip
             // 
             this.attachToolStrip.Name = "attachToolStrip";
-            this.attachToolStrip.Size = new System.Drawing.Size(119, 22);
+            this.attachToolStrip.Size = new System.Drawing.Size(152, 22);
             this.attachToolStrip.Text = "Attach";
             this.attachToolStrip.Click += new System.EventHandler(this.attachToolStrip_Click);
             // 
@@ -1190,22 +1181,45 @@
             this.BO2LoadSettings,
             this.BO2SaveSettings});
             this.bO2ToolStripMenuItem.Name = "bO2ToolStripMenuItem";
-            this.bO2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.bO2ToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.bO2ToolStripMenuItem.Text = "BO2";
             // 
             // BO2LoadSettings
             // 
             this.BO2LoadSettings.Name = "BO2LoadSettings";
-            this.BO2LoadSettings.Size = new System.Drawing.Size(152, 22);
+            this.BO2LoadSettings.Size = new System.Drawing.Size(100, 22);
             this.BO2LoadSettings.Text = "Load";
             this.BO2LoadSettings.Click += new System.EventHandler(this.BO2LoadSettings_Click);
             // 
             // BO2SaveSettings
             // 
             this.BO2SaveSettings.Name = "BO2SaveSettings";
-            this.BO2SaveSettings.Size = new System.Drawing.Size(152, 22);
+            this.BO2SaveSettings.Size = new System.Drawing.Size(100, 22);
             this.BO2SaveSettings.Text = "Save";
             this.BO2SaveSettings.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // mW3ToolStripMenuItem
+            // 
+            this.mW3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.loadToolStripMenuItem,
+            this.saveToolStripMenuItem});
+            this.mW3ToolStripMenuItem.Name = "mW3ToolStripMenuItem";
+            this.mW3ToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.mW3ToolStripMenuItem.Text = "MW3";
+            // 
+            // loadToolStripMenuItem
+            // 
+            this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.loadToolStripMenuItem.Text = "Load";
+            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
+            // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click_1);
             // 
             // tabControl1
             // 
@@ -11789,29 +11803,6 @@
             this.contineousToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.contineousToolStripMenuItem.Text = "Contineous ";
             // 
-            // mW3ToolStripMenuItem
-            // 
-            this.mW3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loadToolStripMenuItem,
-            this.saveToolStripMenuItem});
-            this.mW3ToolStripMenuItem.Name = "mW3ToolStripMenuItem";
-            this.mW3ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.mW3ToolStripMenuItem.Text = "MW3";
-            // 
-            // loadToolStripMenuItem
-            // 
-            this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.loadToolStripMenuItem.Text = "Load";
-            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
-            // 
-            // saveToolStripMenuItem
-            // 
-            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.saveToolStripMenuItem.Text = "Save";
-            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click_1);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -11960,7 +11951,6 @@
         private System.Windows.Forms.ToolStripMenuItem connectionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem connectToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ccapiToolStrip;
-        private System.Windows.Forms.ToolStripMenuItem tmapiToolStrip;
         private System.Windows.Forms.ToolStripMenuItem attachToolStrip;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;

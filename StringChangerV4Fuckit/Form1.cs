@@ -203,7 +203,6 @@ namespace StringChangerV4Fuckit
         }
         public void Bo2LoadSettingsTool()
         {
-            string[] inp = { "pubmatchBox", "multiplayerBox", "pubmatchDescBox", "storeDescBox", "storeBox", "optionsDescBox", "optionsBox", "barracksDescBox", "barracksBox", "codtvDescBox", "codtvBox", "theaterDescBox", "theaterBox", "customGameDescBox", "customGameBox", "leagueDescBox", "leaguePlayBox", "localBox", "lanPartyBox", "playOnlineBox", "playersOnlineBox", "addSplitscreenControllerBox", "backButtonBox", "friendsPlayingBox", "scorestreaksDescBox", "scorestreaksBox", "createclassDescBox", "createaclassBox", "findmatchDescBox", "findMatchBox", "livestreamDescBox", "livestreamBox", "deadScilenceDescBox", "deadscilenceBox", "tacMaskDescBox", "tacMaskBox", "engineerDescBox", "engineerBox", "exCondDesBox", "exCondBox", "dexterityDescBox", "dexterityBox", "scavengerDescBox", "scavengerBox", "hardwiredDescBox", "hardwiredBox", "fasthandsDescBox", "fasthandsBox", "coldbloodedDescBox", "coldbloodBox", "toughnessDescBox", "toughnessBox", "ghostDescBox", "ghostBox", "flakjacketDescBox", "flakjacketBox", "blindeyeDescBox", "blindeyeBox", "hardlineDescBox", "hardlineBox", "lightweightDescBox", "lightweightBox", "awarenessDescBox", "awarenessBox", "c4DescBox", "c4Box", "bouncingbettyDescBox", "bouncingbettyBox", "combataxeDescBox", "combataxeBox", "semtexDescBox", "semtexBox", "claymoreDescBox", "grenadeDescBox", "claymoreBox", "grenadeBox", "tacinsertDescBox", "tacinsertBox", "trophysystemDescBox", "trophysystemBox", "flashbagDescBox", "flashbangBox", "blackhatDescBox", "blackhatBox", "shockchargeDescBox", "shockchargeBox", "empgrenadeDescBox", "empgrenadeBox", "sensorgrenadeDescBox", "sensorgrenadeBox", "stungrenadeDescBox", "stungrenadeBox", "concussionDescBox", "concussionBox", "assaultriflesBox", "an94DescBox", "an94Box", "maDescBox", "m8a1Box", "smrDescBox", "smrBox", "scarDescBox", "scarhBox", "m27DescBox", "m27Box", "faloswDescBox", "faloswBox", "swat556DescBox", "swat556Box", "type25DescBox", "type25Box", "mtarDescBox", "mtarBox", "m1216DescBox", "m1216Box", "ksgDescBox", "ksgBox", "s12DescBox", "s12Box", "r870mcsDescBox", "r870mcsBox", "HAMRDescBox", "HAMRBox", "LSATDescBox", "LSATBox", "QBBLSWDescBox", "QBBLSWBox", "MK48DescBox", "MK48Box", "XPR50DescBox", "XPR50Box", "BallistaDescBox", "BallistaBox", "DSR50DescBox", "DSR50Box", "SVUASDescBox", "SVUASBox", "assaultshieldDescBox", "assaultshieldBox" };
 
 
             string settings_filepath = "Data/BO2ToolSettings.json";
@@ -280,14 +279,14 @@ namespace StringChangerV4Fuckit
                     if (setting.name == "awarenessDescBox") { awarenessDescBox.Text = setting.value; }
                     if (setting.name == "awarenessBox") { awarenessBox.Text = setting.value; }
                     if (setting.name == "c4DescBox") { c4DescBox.Text = setting.value; }
-                    // if (setting.name == "c4Box") { c4Box.Text = setting.value; }
+                    //if (setting.name == "c4box") { c4box.Text = setting.value; }
                     if (setting.name == "bouncingbettyDescBox") { bouncingbettyDescBox.Text = setting.value; }
                     if (setting.name == "bouncingbettyBox") { bouncingbettyBox.Text = setting.value; }
                     if (setting.name == "combataxeDescBox") { combataxeDescBox.Text = setting.value; }
                     if (setting.name == "combataxeBox") { combataxeBox.Text = setting.value; }
                     if (setting.name == "semtexDescBox") { semtexDescBox.Text = setting.value; }
                     if (setting.name == "semtexBox") { semtexBox.Text = setting.value; }
-                    /// if (setting.name == "claymoreDescBox") { claymoreDescBox.Text = setting.value; }
+                    //if (setting.name == "claymoreDescbox") { claymoreDescbox.Text = setting.value; }
                     if (setting.name == "grenadeDescBox") { grenadeDescBox.Text = setting.value; }
                     if (setting.name == "claymoreBox") { claymoreBox.Text = setting.value; }
                     if (setting.name == "grenadeBox") { grenadeBox.Text = setting.value; }
@@ -312,7 +311,7 @@ namespace StringChangerV4Fuckit
                     if (setting.name == "assaultriflesBox") { assaultriflesBox.Text = setting.value; }
                     if (setting.name == "an94DescBox") { an94DescBox.Text = setting.value; }
                     if (setting.name == "an94Box") { an94Box.Text = setting.value; }
-                    if (setting.name == "maDescBox") { m8a1DescBox.Text = setting.value; }
+                    if (setting.name == "m8a1DescBox") { m8a1DescBox.Text = setting.value; }
                     if (setting.name == "m8a1Box") { m8a1Box.Text = setting.value; }
                     if (setting.name == "smrDescBox") { smrDescBox.Text = setting.value; }
                     if (setting.name == "smrBox") { smrBox.Text = setting.value; }
@@ -352,6 +351,13 @@ namespace StringChangerV4Fuckit
                     if (setting.name == "DSR50Box") { DSR50Box.Text = setting.value; }
                     if (setting.name == "SVUASDescBox") { SVUASDescBox.Text = setting.value; }
                     if (setting.name == "SVUASBox") { SVUASBox.Text = setting.value; }
+                    if (setting.name == "assaultshieldDescBox") { assaultshieldDescBox.Text = setting.value; }
+                    if (setting.name == "assaultshieldBox") { assaultshieldBox.Text = setting.value; }
+                    if (setting.name == "partygamesBox") { partygamesBox.Text = setting.value; }
+                    if (setting.name == "combattrainingBox") { combattrainingBox.Text = setting.value; }
+                    if (setting.name == "hardcoreBox") { hardcoreBox.Text = setting.value; }
+                    if (setting.name == "coreBox") { coreBox.Text = setting.value; }
+                    if (setting.name == "playlistsBox") { playlistsBox.Text = setting.value; }
 
 
                 }
@@ -425,14 +431,14 @@ namespace StringChangerV4Fuckit
             Bo2SaveSettingsTool("awarenessDescBox", awarenessDescBox.Text);
             Bo2SaveSettingsTool("awarenessBox", awarenessBox.Text);
             Bo2SaveSettingsTool("c4DescBox", c4DescBox.Text);
-           // Bo2SaveSettingsTool("c4Box", c4Box.Text);
+            //Bo2SaveSettingsTool("c4box", c4box.Text);
             Bo2SaveSettingsTool("bouncingbettyDescBox", bouncingbettyDescBox.Text);
             Bo2SaveSettingsTool("bouncingbettyBox", bouncingbettyBox.Text);
             Bo2SaveSettingsTool("combataxeDescBox", combataxeDescBox.Text);
             Bo2SaveSettingsTool("combataxeBox", combataxeBox.Text);
             Bo2SaveSettingsTool("semtexDescBox", semtexDescBox.Text);
             Bo2SaveSettingsTool("semtexBox", semtexBox.Text);
-           // Bo2SaveSettingsTool("claymoreDescBox", claymoreDescBox.Text);
+            //Bo2SaveSettingsTool("claymoreDescbox", claymoreDescbox.Text);
             Bo2SaveSettingsTool("grenadeDescBox", grenadeDescBox.Text);
             Bo2SaveSettingsTool("claymoreBox", claymoreBox.Text);
             Bo2SaveSettingsTool("grenadeBox", grenadeBox.Text);
@@ -457,7 +463,7 @@ namespace StringChangerV4Fuckit
             Bo2SaveSettingsTool("assaultriflesBox", assaultriflesBox.Text);
             Bo2SaveSettingsTool("an94DescBox", an94DescBox.Text);
             Bo2SaveSettingsTool("an94Box", an94Box.Text);
-            Bo2SaveSettingsTool("maDescBox", m8a1DescBox.Text);
+            Bo2SaveSettingsTool("m8a1DescBox", m8a1DescBox.Text);
             Bo2SaveSettingsTool("m8a1Box", m8a1Box.Text);
             Bo2SaveSettingsTool("smrDescBox", smrDescBox.Text);
             Bo2SaveSettingsTool("smrBox", smrBox.Text);
@@ -499,6 +505,11 @@ namespace StringChangerV4Fuckit
             Bo2SaveSettingsTool("SVUASBox", SVUASBox.Text);
             Bo2SaveSettingsTool("assaultshieldDescBox", assaultshieldDescBox.Text);
             Bo2SaveSettingsTool("assaultshieldBox", assaultshieldBox.Text);
+            Bo2SaveSettingsTool("partygamesBox", partygamesBox.Text);
+            Bo2SaveSettingsTool("combattrainingBox", combattrainingBox.Text);
+            Bo2SaveSettingsTool("hardcoreBox", hardcoreBox.Text);
+            Bo2SaveSettingsTool("coreBox", coreBox.Text);
+            Bo2SaveSettingsTool("playlistsBox", playlistsBox.Text);
 
             MessageBox.Show("Save was successfull", "Save Successfull.", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
@@ -740,40 +751,7 @@ namespace StringChangerV4Fuckit
             }
         }
 
-        //TMPAI
-        private void tmapiToolStrip_Click(object sender, EventArgs e)
-        {
-            FuncDank.PS3Setting.PS3.ChangeAPI(SelectAPI.TargetManager);
-            try
-            {
-                StatusLabel.Text = "Connecting with TMAPI";
-                if (FuncDank.PS3Setting.PS3.ConnectTarget())
-                {
-                    StatusLabel.Text = "Connected with TMAPI Successfully";
-                    string Message = "You are now connected with this API : " + FuncDank.PS3Setting.PS3.GetCurrentAPIName();
-                    FuncDank.PS3Setting.PS31.Notify(CCAPI.NotifyIcon.HAND, "Connected To Kronos's BO2 Tool, \r\n Thanks For Using :)");
-                    FuncDank.PS3Setting.PS31.RingBuzzer(CCAPI.BuzzerMode.Single);
-                   // MessageBox.Show(Message, "Connected!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                    ConnectedStripLabel.ForeColor = Color.Green;
-                    ConnectedStripLabel.Text = "Connected";
-                    CCAPIComboBoxUpdates();
-                    isConnected = true;
-                }
-                else
-                {
-                    StatusLabel.Text = "Connecting with TMAPI Failed";
-                    string Message = "Impossible to connect :/";
-                    MessageBox.Show(Message, "Error...", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    ConnectedStripLabel.ForeColor = Color.Yellow;
-                    ConnectedStripLabel.Text = "Error Connecting...";
-                }
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show(ex.Message,"Errpr",MessageBoxButtons.OK,MessageBoxIcon.Error);
-            }
-
-        }
+      
         public void GetCurrentGameName()
         {
             string outstring;
@@ -2383,7 +2361,6 @@ namespace StringChangerV4Fuckit
 
 
 
-        #endregion
 
         #endregion
 
@@ -2391,7 +2368,8 @@ namespace StringChangerV4Fuckit
 
         #endregion
 
-       
+        #endregion
+
     }
 
 
